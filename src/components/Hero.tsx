@@ -105,7 +105,7 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode }) => {
 
           <div className="flex justify-center space-x-4 mb-12">
             <motion.a
-              href="/public/resume.pdf"
+              href="/resume.pdf"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
