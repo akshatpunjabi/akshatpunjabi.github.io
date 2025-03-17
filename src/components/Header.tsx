@@ -10,7 +10,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ isDarkMode, toggleDarkMode }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = ['Home', 'About', 'Skills', 'Experience', 'Projects', 'Contact'];
+  const menuItems = ['Home', 'About', 'Experience', 'Projects', 'Skills', 'Contact'];
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId.toLowerCase());

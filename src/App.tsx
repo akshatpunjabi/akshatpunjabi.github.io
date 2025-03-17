@@ -19,9 +19,9 @@ function App() {
       <Header isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
       <Hero isDarkMode={isDarkMode} />
       <About isDarkMode={isDarkMode} />
-      <Skills isDarkMode={isDarkMode} />
       <Experience isDarkMode={isDarkMode} />
       <Projects isDarkMode={isDarkMode} />
+      <Skills isDarkMode={isDarkMode} />
       <Contact isDarkMode={isDarkMode} />
     </div>
   );
