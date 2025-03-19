@@ -25,7 +25,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode }) => {
           className="w-full md:w-1/2 flex justify-center"
         >
           <img 
-            src="/about.jpg"  // Replace with your actual image path
+            src="/about.jpeg"  // Replace with your actual image path
             alt="About Me"
             className="rounded-2xl shadow-lg w-full max-w-sm md:max-w-md"
           />
