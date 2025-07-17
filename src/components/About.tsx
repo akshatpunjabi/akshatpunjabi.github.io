@@ -46,11 +46,15 @@ const About: React.FC<AboutProps> = ({ isDarkMode }) => {
             I started my tech journey breaking things (mostly my own code), but eventually figured out how to make computers work for me. Now, I specialize in AI, cybersecurity, and cloud-native solutions.
           </p>
           <p className="text-lg leading-relaxed mb-6">
+            I co-founded <a href="https://aissential.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Aissential</a>, where we build domain-agnostic AI agents for education, media, and enterprise. Our flagship platform, Odin, helps students learn smarter with real-time, syllabus-aware support.
+          </p>
+          <p className="text-lg leading-relaxed mb-6">
             I optimize neural networks, build security systems, and once explained a tech concept to my grandma (she still thinks the Cloud is about actual clouds).
           </p>
           <p className="text-lg leading-relaxed">
             If there's a problem, I'll solve it – or at least turn it into a feature.
           </p>
+
         </motion.div>
 
       </div>
