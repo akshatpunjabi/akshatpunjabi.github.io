@@ -22,6 +22,10 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode }) => {
 
   const factCards: FactCard[] = [
     {
+      achievement: "Co-founded a startup building AI agents for education and media",
+      caption: "Turns out debugging startups is harder than debugging code."
+    },
+    {
       achievement: "Engineered a two-tier antivirus with 96.8% accuracy & <2% false positives",
       caption: "Too bad it doesn't protect me from procrastination."
     },
@@ -30,14 +34,11 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode }) => {
       caption: "Now if only I could find my lost AirPods."
     },
     {
-      achievement: "Enhanced GraphNAS, accelerating optimal model discovery by 33%",
-      caption: "Can't optimize my sleep schedule, though."
-    },
-    {
       achievement: "Led a team to 1st place out of 800+ at TAMUhack X",
       caption: "Apparently, AI and Blockchain make a great team."
     }
   ];
+  
   
 
   const toggleCard = (index: number) => {
