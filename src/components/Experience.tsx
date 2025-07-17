@@ -13,62 +13,74 @@ const Experience: React.FC<ExperienceProps> = ({ isDarkMode }) => {
     threshold: 0.1
   });
 
-const experiences = [
-  {
-    title: 'Graduate Researcher',
-    company: 'Texas A&M University',
-    period: '2023 - Present',
-    icon: <School />,
-    achievements: [
-      'Developed a two-tier antivirus system achieving 96.8% accuracy with <2% false positives',
-      'Engineered a DLL injection-based monitoring tool intercepting 157 system calls and logging ~920K process events',
-      'Optimized threat detection pipeline, reducing latency to under 1.5 seconds'
-    ]
-  },
-  {
-    title: 'MS in Computer Science',
-    company: 'Texas A&M University',
-    period: '2023 - Present',
-    icon: <School />,
-    achievements: [
-      'GPA: 4.0/4.0',
-      'Relevant Coursework: Deep Learning, Cybersecurity Risk, ML-Based Cyber Defenses, \nDeep Reinforcement Learning, Network Security, Distributed Systems, Machine Learning'
-    ]
-  },
-  {
-    title: 'Software Engineering Intern',
-    company: 'Oracle',
-    period: 'Spring 2023',
-    icon: <Briefcase />,
-    achievements: [
-      'Enhanced Business Intelligence API dependability, simplifying troubleshooting workflows',
-      'Refactored POS synchronization pipeline, reducing inventory mismatches by 20% across 72 locations',
-      'Designed an automated test script for scheduled exports, saving 12 hours of manual testing weekly',
-      'Resolved a critical DST bug impacting 8,000+ users, ensuring accurate financial reporting'
-    ]
-  },
-  {
-    title: 'Amazon ML Summer School',
-    company: 'Amazon',
-    period: 'Summer 2022',
-    icon: <Award />,
-    achievements: [
-      'Collaborated with industry experts to optimize AI training workflows',
-      'Analyzed 500K+ data points to build predictive models for early risk detection',
-      'Improved machine translation performance by 5 BLEU points, enhancing cross-language communication'
-    ]
-  },
-  {
-    title: 'Bachelor\'s in Computer Science',
-    company: 'MIT Manipal',
-    period: '2019 - 2023',
-    icon: <School />,
-    achievements: [
-      'GPA: 3.64/4.0',
-      'Minor Specialization: Computational Intelligence',
-    ]
-  }
-];
+  const experiences = [
+    {
+      title: 'Co-Founder and CTO',
+      company: 'Aissential',
+      period: '2025 - Present',
+      icon: <Briefcase />,
+      achievements: [
+        'Leading the development of domain-agnostic AI agents for applications in education, media, and enterprise',
+        'Deployed Odin, an AI-powered learning platform with a RAG-based TA chatbot, forums, and smart study modules',
+        'Built ByteDigest, a personalized news app that leverages real-time NLP to boost user engagement by 4×'
+      ]
+    },
+    {
+      title: 'Graduate Researcher',
+      company: 'Texas A&M University',
+      period: '2023 - 2025',
+      icon: <School />,
+      achievements: [
+        'Developed a two-tier antivirus system achieving 96.8% accuracy with <2% false positives',
+        'Engineered a DLL injection-based monitoring tool intercepting 157 system calls and logging ~920K process events',
+        'Optimized threat detection pipeline, reducing latency to under 1.5 seconds'
+      ]
+    },
+    {
+      title: 'MS in Computer Science',
+      company: 'Texas A&M University',
+      period: '2023 - 2025',
+      icon: <School />,
+      achievements: [
+        'GPA: 4.0/4.0',
+        'Relevant Coursework: Deep Learning, Cybersecurity Risk, ML-Based Cyber Defenses, Deep Reinforcement Learning, Network Security, Distributed Systems, Machine Learning'
+      ]
+    },
+    {
+      title: 'Software Engineering Intern',
+      company: 'Oracle',
+      period: 'Spring 2023',
+      icon: <Briefcase />,
+      achievements: [
+        'Enhanced Business Intelligence API dependability, simplifying troubleshooting workflows',
+        'Refactored POS synchronization pipeline, reducing inventory mismatches by 20% across 72 locations',
+        'Designed an automated test script for scheduled exports, saving 12 hours of manual testing weekly',
+        'Resolved a critical DST bug impacting 8,000+ users, ensuring accurate financial reporting'
+      ]
+    },
+    {
+      title: 'Amazon ML Summer School',
+      company: 'Amazon',
+      period: 'Summer 2022',
+      icon: <Award />,
+      achievements: [
+        'Collaborated with industry experts to optimize AI training workflows',
+        'Analyzed 500K+ data points to build predictive models for early risk detection',
+        'Improved machine translation performance by 5 BLEU points, enhancing cross-language communication'
+      ]
+    },
+    {
+      title: 'Bachelor\'s in Computer Science',
+      company: 'MIT Manipal',
+      period: '2019 - 2023',
+      icon: <School />,
+      achievements: [
+        'GPA: 3.64/4.0',
+        'Minor Specialization: Computational Intelligence',
+      ]
+    }
+  ];
+  
 
 
   return (
