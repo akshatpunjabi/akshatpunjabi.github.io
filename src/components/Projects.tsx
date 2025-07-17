@@ -15,11 +15,11 @@ const Projects: React.FC<ProjectsProps> = ({ isDarkMode }) => {
 
   const projects = [
     {
-      title: 'Agentic Virtual Teaching Assistant',
-      description: 'Built an AI chatbot providing instant academic support using fine-tuned LLMs, deployed on AWS EC2.',
+      title: 'Odin - AI Powered Learning Companion',
+      description: 'Built Odin, an AI that knows your course. It answers questions, writes notes, creates quizzes, and upholds academic integrity with every response.',
       tech: ['AWS', 'LLM', 'Python', 'React'],
-      live: 'http://54.237.27.61:8501/',
-      metrics: ['99% inference quality', 'Real-time responses', '24/7 availability']
+      live: 'https://odin.aissential.ai/',
+      metrics: ['99% inference quality', 'Real-time responses', 'Always Available']
     },
     {
       title: 'ReLeaf - 1st Place Hackathon Project',
